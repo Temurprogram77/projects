@@ -45,3 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.btn {
+  background: black;
+  border: none;
+}

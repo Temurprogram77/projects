@@ -40,6 +40,10 @@ body {
 .user-working button:hover {
     background: #39c900b6;
 }
+.data-base h2 {
+  width: 240px;
+  font-size: 12px;
+}
 .data-base {
   width: 100%;
   display: flex;

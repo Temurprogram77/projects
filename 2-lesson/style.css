@@ -45,8 +45,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 .btn {
-  background: black;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background: #b5b5b5;
   border: none;
   display: flex;
   align-items: center;

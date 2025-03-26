@@ -18,6 +18,9 @@ const createUser = async () => {
       body: JSON.stringify({ name, job }),
     });
     const data = await response.json();
+    user.push(data);
+    message.textContent = "Yangi foydalanuchi qo'shildi.";
+    
     console.log(data);
   } catch {
     message.textContent = "Iltimos ismingiz bilan kasbingizni kiriting";
